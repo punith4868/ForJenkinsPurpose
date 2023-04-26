@@ -19,7 +19,7 @@ public class loginTest extends BaseClass{
 	 
 	@Test(priority=0)
 	public void loginValid() {
-		 
+		 //login valid
 		 driver.findElement(By.id("input-email")).sendKeys("jhansi4868@gmail.com");
 		 driver.findElement(By.id("input-password")).sendKeys("Jhansi@04");
 		 driver.findElement(By.xpath("//input[@class='btn btn-primary']")).click();
